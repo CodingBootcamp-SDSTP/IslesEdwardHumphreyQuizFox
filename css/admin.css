@@ -1,0 +1,110 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url("../images/space.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+}
+#register {
+	background: url("../images/space.jpg");
+	background-size: cover;
+}
+#questionBackground {
+	background: url("../images/questions.jpg");
+	background-size: cover;
+}
+.loginBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 555px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.4);
+	box-shadow: 0 0 15px #000000;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+.user
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+	box-shadow: 0 0 10px #d89241;
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #efed40;
+	text-align: center;
+}
+.loginBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #025c41;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover
+{
+	background: #d89241;
+	color: #b2d8d8;
+}
+.loginBox a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+	color: #b2d8d8;
+	box-shadow: 0 0 10px #d89241;
+}
+.light{
+	text-indent: 5px;
+	margin-top: 7px;
+	border-radius: 10px;
+}
